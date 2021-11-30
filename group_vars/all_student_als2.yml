@@ -1,0 +1,5 @@
+---
+device: als2
+hostname_config: A2
+model: als
+mputty_als2: als2

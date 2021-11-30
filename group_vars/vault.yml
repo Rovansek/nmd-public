@@ -1,0 +1,9 @@
+---
+
+#NMD Vault passwords
+
+ansible_user: "instructor"
+ansible_ssh_pass: "NMD1n$truct0r!"
+ansible_network_os: "ios"
+
+...

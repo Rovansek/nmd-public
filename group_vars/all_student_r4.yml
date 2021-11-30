@@ -1,0 +1,4 @@
+---
+device: r4
+hostname_config: R4
+model: router

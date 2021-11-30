@@ -1,0 +1,12 @@
+---
+location: student10
+file_name: student_10
+mputty_name: Student_10
+mputty_r1: 10.{{ ipv4_location }}.73  
+mputty_r2: 10.{{ ipv4_location }}.74 
+mputty_r3: 10.{{ ipv4_location }}.75 
+mputty_r4: 10.{{ ipv4_location }}.76 
+mputty_dls1: 10.{{ ipv4_location }}.77 
+mputty_dls2: 10.{{ ipv4_location }}.78 
+mputty_als1: 10.{{ ipv4_location }}.79
+mputty_als2: 10.{{ ipv4_location }}.80   

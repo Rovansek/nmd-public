@@ -1,0 +1,4 @@
+---
+device: r3
+hostname_config: R3
+model: router

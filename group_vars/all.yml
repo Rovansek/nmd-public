@@ -1,0 +1,16 @@
+ansible_become: yes
+ansible_become_method: enable
+ansible_become_password: cisco12345cisco
+ansible_connection: network_cli
+ansible_network_os: ios
+ipv4_location: 136.136
+mputty_ssh_pass:
+mputty_ssh_user:
+mputty_telnet_password: 
+mputty_telnet_password:
+#ansible_user: jonathan
+#ansible_password: rovansek
+#ansible_become: yes
+#ansible_become_method: enable
+#ansible_become_password: cisco123456cisco
+#ansible_ssh_common_args: '-o ProxyCommand="ssh -W %h:%p -q bastion01"'

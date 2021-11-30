@@ -1,0 +1,4 @@
+---
+device: r2
+hostname_config: R2
+model: router

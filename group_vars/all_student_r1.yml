@@ -1,0 +1,5 @@
+---
+device: r1
+hostname_config: R1
+model: router
+mputty_r1: R1

@@ -1,0 +1,14 @@
+---
+device: instructor
+ansible_network_os: ios
+location: instructor
+file_name: instructor_01
+
+mputty_r1: 10.{{ ipv4_location }}.161  
+mputty_r2: 10.{{ ipv4_location }}.162 
+mputty_r3: 10.{{ ipv4_location }}.163 
+mputty_r4: 10.{{ ipv4_location }}.164 
+mputty_dls1: 10.{{ ipv4_location }}.165 
+mputty_dls2: 10.{{ ipv4_location }}.166 
+mputty_als1: 10.{{ ipv4_location }}.167
+mputty_als2: 10.{{ ipv4_location }}.168 

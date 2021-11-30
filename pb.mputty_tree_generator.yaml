@@ -1,0 +1,46 @@
+---
+  - hosts: all_pods
+    connection: network_cli
+    gather_facts: no
+
+    vars:
+        path: '{{ room }}/mputty' 
+        mputty_script_ssh:   <L0></L0>
+                             <L1></L1>
+                             <L2>term mon </L2>
+                             <L3></L3> 
+        mputty_script_telnet:   <L0></L0>
+                                <L1></L1>
+                                <L2>term mon </L2>
+                                <L3></L3>   
+    
+    tasks: 
+      - name: Create a directory if it does not exist
+        file:
+           path: ./config_archive/{{ path }}
+           state: directory
+           mode: '0755'
+
+      - name: Generate Mputty Tree
+        template:
+          src: mputty_tree_template1.j2
+          dest: config_archive/{{ path }}/{{ file_name }}_mputty_ansible_tree.xml
+
+      
+#      - name: Create a tar archive of a CCNA/CCNP base config file.
+#        archive:
+#          path: 
+#          - ./config_archive/{{ room }}/{{ location }}/{{ device }}/base.cfg     
+#          dest: ./config_archive/{{ room }}/{{ location }}/{{ device }}/base.tar                
+#          format: tar
+#         force_archive: true
+
+ #     - name: Create a tar archive of a CCNA/CCNP base config file.
+ #       archive:
+ #         path: ./config_archive/{{ room }}     
+ #        dest: ./config_archive/{{ room }}_all_base.tar      
+ #         format: tar
+ #         force_archive: true
+
+
+

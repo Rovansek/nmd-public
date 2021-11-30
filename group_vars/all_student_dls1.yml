@@ -1,0 +1,5 @@
+---
+device: dls1
+hostname_config: D1
+model: dls
+mputty_dls1: dls1
